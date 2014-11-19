@@ -30,7 +30,8 @@ package jssc;
  */
 public class SerialPortException extends Exception {
 
-    final public static String TYPE_PORT_ALREADY_OPENED = "Port already opened";
+	private static final long serialVersionUID = 1L;
+	final public static String TYPE_PORT_ALREADY_OPENED = "Port already opened";
     final public static String TYPE_PORT_NOT_OPENED = "Port not opened";
     final public static String TYPE_CANT_SET_MASK = "Can't set mask";
     final public static String TYPE_LISTENER_ALREADY_ADDED = "Event listener already added";
